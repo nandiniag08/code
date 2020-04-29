@@ -49,9 +49,11 @@ print(dict3)
 del(dict1["Book"])
 dict2.pop("Calculator")
 dict3.popitem()
-print(dict1)
-print(dict2)
-print(dict3)
+print(dict1)   #Print without keyword "book" and it's value"yellow"
+print(dict2)   #Print without keyword "calculator" and it's value"grey"
+print(dict3)   #Print without the last keyword fom dictionary 3 "madhav" and it's value"arrogant"
+
+
 
 
 
